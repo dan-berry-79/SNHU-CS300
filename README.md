@@ -15,3 +15,22 @@ This course reinforced the importance of considering program design before begin
 
 ## How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
 My work in this course has made me more deliberate about organizing code into functions with specific responsibilities and using descriptive names and comments where they improve readability. Project Two separated tasks such as loading data, inserting and searching for courses, traversing the binary search tree, and displaying information instead of placing everything inside the main function. I also added input validation and error handling so the program could respond appropriately to unexpected input. These practices make the code easier to understand, test, maintain, and modify later.
+
+## Build and Run
+
+Project Two is a C++ console application developed in Microsoft Visual Studio. It uses a binary search tree to organize course information and display courses in alphanumeric order.
+
+### Instructions
+
+1. Open `ProjectTwo/ProjectTwo.slnx` in Visual Studio.
+2. Build and run the project.
+3. Select **1. Load Data Structure** from the menu.
+4. When prompted for a filename, enter:
+
+   `CS 300 ABCU_Advising_Program_Input.csv`
+
+5. Select **2. Print Course List** to display all courses in alphanumeric order.
+6. Select **3. Print Course** to search for a specific course and display its prerequisites.
+7. Select **9. Exit** to close the application.
+
+The sample CSV file is included with the Visual Studio project. The application also validates course records, detects duplicate course numbers, verifies prerequisites, and handles invalid input.
