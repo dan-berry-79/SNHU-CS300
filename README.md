@@ -22,7 +22,7 @@ Project Two is a C++ console application developed in Microsoft Visual Studio. I
 
 ### Instructions
 
-1. Open `ProjectTwo/ProjectTwo.slnx` in Visual Studio.
+1. Open `CS300_ProjectTwo_Portfolio/ProjectTwo.slnx` in Visual Studio.
 2. Build and run the project.
 3. Select **1. Load Data Structure** from the menu.
 4. When prompted for a filename, enter:
